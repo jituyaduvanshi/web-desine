@@ -1,0 +1,381 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: "Inter", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background-color: #EFFDF5;
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    color: black;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 9;
+    background-color: #EFFDF5;
+}
+
+.logo {
+    color: #00b074;
+    font-size: 37px;
+    margin-left: 25px;
+    padding-top: 6px;
+    box-sizing: border-box;
+    width: 150px;
+    height: 100%;
+    display: inline-block;
+    font-weight: 550;
+}
+
+.btn1 {
+    color: black;
+    font-size: 17px;
+    margin-left: 635px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    font-weight: 550;
+}
+
+.btn {
+
+    color: black;
+    font-size: 17px;
+    margin-left: 37px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    /* background-color: blue; */
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    font-weight: 550;
+}
+
+.jobbtn {
+    color: white;
+    font-size: 22px;
+    margin-left: 37px;
+    padding-top: 21px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    background-color: #00B074;
+    width: 150px;
+    height: 100%;
+    display: inline-block;
+    font-weight: 550;
+}
+
+.btn1:hover {
+    color: #00B074;
+}
+
+.btn:hover {
+    color: #00B074;
+}
+
+.jobbtn:hover {
+    background-color: black;
+}
+
+.main {
+    width: 100%;
+    height: 600px;
+    filter: contrast(0.4) brightness(0.6) saturate(1.5);
+
+}
+
+.title {
+    border-top: #00B074;
+    border-bottom: #00B074;
+    position: relative;
+    top: -430px;
+    left: 230px;
+    width: 200px;
+    height: 300px;
+    color: #EFFDF5;
+    border-left: 15px solid #00B074;
+    box-sizing: border-box;
+    padding-left: 25px;
+}
+
+.t-main {
+    font-size: 50px;
+    font-weight: bolder;
+    width: 530px;
+    padding-top: 13px;
+}
+
+.ab {
+    color: #00B074;
+    font-size: 17px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    font-weight: 550;
+
+}
+
+.help {
+    width: 85%;
+    margin-left: 100px;
+    height: 480px;
+    position: relative;
+    top: -190px;
+    display: flex;
+}
+
+.h1 {
+    width: 570px;
+    height: 500px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.h2 {
+    width: 500px;
+    height: 480px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.i1 {
+    width: 282px;
+    height: 238px;
+}
+
+.pg1 {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 13px;
+    box-sizing: border-box;
+}
+
+.pg2 {
+
+    height: 80px;
+    font-size: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.pg3 {
+
+    height: 60px;
+    padding: 22px;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+
+.pg4 {
+    width: 130px;
+    height: 40px;
+    background-color: #009865;
+    font-size: 16px;
+    border: none;
+    margin-left: 15px;
+    color: #EFFDF5;
+    margin-left: 37px;
+    margin-top: 5px;
+}
+
+.pg4:hover {
+    background-color: black;
+    color: #EFFDF5;
+}
+
+.pg5 {
+    font-size: 15px;
+    color: transparent;
+}
+
+.company {
+    color: beige;
+}
+
+.footer {
+    color: #EFFDF5;
+    background-color: #2B3940;
+    height: 390px;
+    padding: 30px;
+    font-weight: 500;
+}
+
+.f-col {
+    /* background-color: red; */
+    margin-right: 40px;
+    margin-left: 20px;
+    display: inline-block;
+    width: 270px;
+    margin-bottom: 70px;
+    margin-top: 20px;
+}
+
+.comp {
+    font-size: 25px;
+    /* background-color: red; */
+    margin-bottom: 25px;
+    margin-top: 55px;
+}
+
+.f-txt {
+    display: block;
+    text-decoration: none;
+    color: grey;
+    font-weight: 550;
+    margin-top: 12px;
+    font-size: 15px;
+    transition: 0.150s;
+}
+
+.f-txt:hover {
+    letter-spacing: 1px;
+}
+
+.f-txt2 {
+    display: block;
+    text-decoration: none;
+    color: grey;
+    font-weight: 550;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.i-phn {
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 10px;
+    color: #EFFDF5;
+}
+
+.f-sign {
+    background-color: #2B3940;
+    border: 1px solid white;
+    box-sizing: border-box;
+    margin-top: 25px;
+    width: 270px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-email {
+    width: 100px;
+    /* height: 50px; */
+    font-size: large;
+    background-color: #2B3940;
+    border: none;
+    color: white;
+}
+
+.f-submit {
+    width: 90px;
+    height: 40px;
+    background-color: #009865;
+    color: #EFFDF5;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4%;
+    margin-left: 45px;
+}
+
+.f-submit:hover {
+    background-color: #00B074;
+}
+
+.f-gap {
+    color: transparent;
+    background-color: transparent;
+    font-size: 0px;
+    cursor: context-menu;
+}
+
+.f-gap1 {
+    color: transparent;
+    background-color: transparent;
+    font-size: 3px;
+    cursor: context-menu;
+}
+
+.line {
+    border-top: 1px solid rgb(97, 96, 96);
+    color: transparent;
+    margin-bottom: 10px;
+}
+
+.companyname {
+    /* background-color: red; */
+    display: inline-block;
+    width: 270px;
+}
+
+.copyright {
+    /* background-color: red; */
+    display: inline-block;
+    color: grey;
+}
+
+.copyright h2 {
+    color: #EFFDF5;
+    display: inline-block;
+    font-size: large;
+}
+
+.watermark {
+    /* background-color: red; */
+    display: inline-block;
+    color: grey;
+}
+
+.watermark h2 {
+    color: #EFFDF5;
+    display: inline-block;
+    font-size: large;
+}
+
+.footer-menu {
+    display: inline-block;
+    /* background-color: red; */
+    position: relative;
+    top: -23px;
+    margin-left: 610px;
+    margin-right: 0px;
+    left: 90px;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #EFFDF5;
+    padding-right: 30px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-right: 1px solid grey;
+    /* background-color: red; */
+    font-size: 15px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
